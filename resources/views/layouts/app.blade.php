@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>To-Do List</title>
+    <title>Todo List</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
@@ -15,7 +15,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
         <div class="container">
-            <a class="navbar-brand" href="{{ route('tasks.index') }}">To-Do List</a>
+            <a class="navbar-brand" href="{{ route('tasks.index') }}">Todo List</a>
             <div class="d-flex">
                 @auth
                     <span class="me-2">Wellcome, {{ Auth::user()->name }}</span>
